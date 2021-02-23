@@ -29,7 +29,7 @@ services:
     environment:
       MYSQL_DATABASE: 'events'
       # So you don't have to use root, but you can if you like
-      MYSQL_USER: 'root'
+      MYSQL_USER: 'user'
       # You can use whatever password you like
       MYSQL_PASSWORD: 'password'
       # Password for root access
@@ -44,4 +44,4 @@ services:
     volumes: 
       - my-db:/var/lib/mysql
 volumes:
-  my_db:
+  my-db:
